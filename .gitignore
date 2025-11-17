@@ -1,0 +1,56 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.env.*
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ---------------------------
+# IDEs / Editors
+# ---------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------
+# Docker
+# ---------------------------
+docker-compose.override.yml
+*.log
+*.tmp
+
+# ---------------------------
+# LaTeX build files
+# ---------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.bbl
+*.blg
+
+# ---------------------------
+# OS Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Uploaded PDFs
+# ---------------------------
+backend/uploads/*
+!backend/uploads/.gitkeep
